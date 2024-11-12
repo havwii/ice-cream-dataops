@@ -25,9 +25,9 @@ def run_extractor(client: CogniteClient, states: AbstractStateStore, config: Con
 
 def handle(client: CogniteClient = None, data=None):
     if data:
-        config_file_path = data.get("config_file_path", "extractor_config.yaml")
+        config_file_path = data.get("config_file_path", "extractor_config.Function.yaml")
     else:
-        config_file_path = "extractor_config.yaml"
+        config_file_path = "extractor_config.Function.yaml"
 
     with Extractor(
         name="icapi_timeseries_extractor",

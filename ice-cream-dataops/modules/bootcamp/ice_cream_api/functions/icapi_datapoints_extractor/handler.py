@@ -77,7 +77,7 @@ def run_extractor(client: CogniteClient, states: AbstractStateStore, config: Con
 
 
 def handle(client: CogniteClient = None, data=None):
-    config_file_path = "extractor_config.yaml"
+    config_file_path = "extractor_config.Function.yaml"
 
     # Can't pass parameters to the Extractor, so create environment variables
     if data:
