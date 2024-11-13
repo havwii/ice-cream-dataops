@@ -16,4 +16,3 @@ authentication:
   cdfProjectName: {{ CDF_PROJECT }}
   scopes: {{ IDP_SCOPES }}
   # Optional: If idP requires providing the cicd_audience
-  # audience: {{ cicd_audience }}

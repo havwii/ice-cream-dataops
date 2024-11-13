@@ -1,3 +1,2 @@
 externalId: 'tr_create_asset_hierarchy'
 interval: '0 0 * * *'
-isPaused: {{ pause_transformations }}
