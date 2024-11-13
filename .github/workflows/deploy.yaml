@@ -10,15 +10,14 @@ on:
 env:
   PYTHON_VERSION: '3.11'
   TOOLKIT_VERSION: '0.3.9'
-  BOOTCAMP_NUMBER: None
+  BOOTCAMP_NUMBER: '02'
 jobs:
   build-modules:
     strategy:
       matrix:
         environment:
-          # - test
-          # - prod
-          - none
+          - test
+          - prod
 
     environment: ${{ matrix.environment }}
     runs-on: ubuntu-latest
