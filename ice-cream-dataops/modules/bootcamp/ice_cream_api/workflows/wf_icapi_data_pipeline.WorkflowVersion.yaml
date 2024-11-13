@@ -49,7 +49,7 @@ workflowDefinition:
     timeout: 3600
     onFailure: abortWorkflow
     dependsOn:
-      - externalId: icapi_assets_extractor_task
+      - externalId: create_assets_hieararchy_task
       - externalId: icapi_timeseries_extractor_task
   - externalId: oee_timeseries_task
     type: function
