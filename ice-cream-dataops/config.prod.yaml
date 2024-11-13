@@ -25,7 +25,7 @@ variables:
       readonly_source_id: 6da312e0-3695-4642-8626-9ca75c922520
       icapi_extractors_source_id: 834031d6-3536-4828-b77f-b37638ffea6f
 
-      # Client Ids (App registrations or Service Principals)
+      # Client Id's (App registrations or Service Principals)
       data_pipeline_oee_client_id: ${DATA_PIPELINE_OEE_CLIENT_ID} # replaced by .env
       data_pipeline_oee_client_secret: ${DATA_PIPELINE_OEE_CLIENT_SECRET} # replaced by .env
 
