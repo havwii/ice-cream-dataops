@@ -220,13 +220,13 @@ colorama = {version = "*", markers = "platform_system == \"Windows\""}
 
 [[package]]
 name = "cognite-sdk"
-version = "7.64.14"
+version = "7.65.0"
 description = "Cognite Python SDK"
 optional = false
 python-versions = "<4.0,>=3.10"
 files = [
-    {file = "cognite_sdk-7.64.14-py3-none-any.whl", hash = "sha256:aeb9de45976b65624ecf0cec63e4d036e23e0bff1d2b36f8a1cf6d72987b2f01"},
-    {file = "cognite_sdk-7.64.14.tar.gz", hash = "sha256:68253fa461fc17073d466b4b3e476973d60002852316e99c79d5dcad019a2a03"},
+    {file = "cognite_sdk-7.65.0-py3-none-any.whl", hash = "sha256:527e3126322427d3089b9d75f6e533a5f554e84b089e159d7fd2be78daf2633b"},
+    {file = "cognite_sdk-7.65.0.tar.gz", hash = "sha256:1432bebe44e31eadc5a68c9d9d5c6429b1b64f02e6e075801d726b457f4461fa"},
 ]
 
 [package.dependencies]
@@ -249,13 +249,13 @@ yaml = ["PyYAML (>=6.0,<7.0)"]
 
 [[package]]
 name = "cognite-toolkit"
-version = "0.3.9"
+version = "0.3.4"
 description = "Official Cognite Data Fusion tool for project templates and configuration deployment"
 optional = false
 python-versions = "<4.0,>=3.10"
 files = [
-    {file = "cognite_toolkit-0.3.9-py3-none-any.whl", hash = "sha256:aecee17d6653191e2f6a770797a26607b34d586e45afb01aae5c820247ec5ac7"},
-    {file = "cognite_toolkit-0.3.9.tar.gz", hash = "sha256:8dc830a2625530a668f4061fe2386b220f53f05f19878ac8e47bab06b7b65cb6"},
+    {file = "cognite_toolkit-0.3.4-py3-none-any.whl", hash = "sha256:3bfdf279aee2317cb74583278131ef5f21d055bf1b421e528c1ea4406c56d710"},
+    {file = "cognite_toolkit-0.3.4.tar.gz", hash = "sha256:3d2de3b50886351f5a6a73ceb5c4b3cfa14b723a8b6764f2b166c05f2b5171e3"},
 ]
 
 [package.dependencies]
@@ -999,4 +999,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "87f7faefb23e1c5938b189ba068d7af315570980078cd85efccd6d2c37f9c0f2"
+content-hash = "ae0e519e947b42290586fdcd256289f80e4fe6d71c7be9f70a49fe64b4fe95e0"
