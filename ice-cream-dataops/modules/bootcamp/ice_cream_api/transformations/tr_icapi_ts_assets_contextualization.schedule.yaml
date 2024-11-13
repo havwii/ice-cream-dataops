@@ -1,0 +1,3 @@
+externalId: 'tr_icapi_ts_assets_contextualization'
+interval: '0 0 * * *'
+isPaused: {{ pause_transformations }}
