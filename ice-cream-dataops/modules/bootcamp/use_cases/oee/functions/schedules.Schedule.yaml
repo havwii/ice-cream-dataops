@@ -3,16 +3,16 @@
   functionExternalId: oee_timeseries
   data:
     sites:
-      - Oslo
-      - Hannover
-      - Nuremberg
-      - Marseille
-      - Houston
-      - Sao_Paulo
-      - Kuala_Lumpur
       - Chicago
-      - Rotterdam
+      - Hannover
+      - Houston
+      - Kuala_Lumpur
       - London
+      - Marseille
+      - Nuremberg
+      - Oslo
+      - Rotterdam
+      - Sao_Paulo
     lookback_minutes: 60
   authentication:
     clientId: {{ data_pipeline_oee_client_id }}
@@ -118,7 +118,7 @@
     clientSecret: {{ data_pipeline_oee_client_secret }}
 
 - name: Run calculations once a day for 30 days history (Hannover)
-  cronExpression: "8 1 * * *"
+  cronExpression: "9 1 * * *"
   functionExternalId: oee_timeseries
   data:
     sites:
